@@ -2,7 +2,7 @@
 
 ## Thanks for the shout out
 
-*I like to take sideways selfies when I drive*
+*I like to take sideways selfies when I drive fast*
 ![yup yup](assets/me.jpg)
 
 ### Check out my website
