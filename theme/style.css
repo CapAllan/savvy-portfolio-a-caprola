@@ -102,7 +102,7 @@ list-style: none;
 #content li:nth-child(3) {
   background-color: black;
 }
-  #content li:nth-child(3) {
+#content li:nth-child(3) {
     background-color: burgundy;
   }
 
