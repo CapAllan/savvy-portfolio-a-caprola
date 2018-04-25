@@ -1,12 +1,47 @@
 body{
   background-color: gold;
+  margin: 0;
 }
 h1 {
   font-family: sans-serif;
+
 }
+
 h2 {
   color: black;
   font-family: Verdana, sans-serif;
+}
+
+ul{
+  border: solid red;
+  width: 90%;
+  margin: 0 auto;
+  padding: 25px 25px 25px 40px;
+}
+li{
+  padding: 5px;
+  margin: 5px;
+}
+
+img {
+  width: 90%;
+  margin: 20px auto;
+  display: block;
+  max-width: 350px
+}
+
+#header{
+  background-color: hotpink;
+}
+
+.container {
+width: 90%;
+margin: 0 auto;
+max-width: 750px;
+}
+
+div.container {
+background-color: green;
 }
 .primary {
   color: blue;
@@ -17,6 +52,94 @@ h2 {
 .title {
   font-family: Verdana, sans-serif;
 }
-#header{
-  background-color: hotpink;
+
+
+#navigation {
+  width: 100vw;
+  background-color: lime;
+  position: fixed;
+  top: 0;
+}
+
+#navigation a{
+color: white;
+}
+
+#navigation > ul{
+list-style: none;
+
+}
+#navigation > ul > li{
+  position: relative;
+  display: inline;
+
+
+}
+
+#navigation a:hover + ul{
+  display: block;
+
+}
+
+#navigation > ul ul:hover{
+  display: block;
+}
+
+#navigation a:hover {
+  color: black;
+}
+
+#content p:nth-child(2) {
+  background-color: tan;
+}
+#content li:nth-child(3){
+  background-color: black;
+}
+#content li:first-child {
+  background-color: orange;
+}
+
+#content li:nth-child(3) {
+  background-color: black;
+}
+  #content li:nth-child(3) {
+    background-color: burgundy;
+  }
+
+#content ul > li{
+}
+
+#navigation > ul ul {
+position: absolute;
+display: none;
+top: 22px;
+left: 6px;
+border: none;
+background-color: teal;
+margin: 0;
+padding: 0;
+
+}
+
+
+#header {
+}
+
+#header > p{
+  font-style: helvetica;
+}
+#content ul{
+   color: white;
+}
+
+#footer {
+  width: 100vw;
+}
+
+#footer ul{
+  color: white;
+}
+
+#projects-page {
+background-color: pink;
 }
