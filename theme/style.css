@@ -89,6 +89,16 @@ list-style: none;
   color: black;
 }
 
+#content {
+  margin: 20px;
+  top: 20px;
+}
+
+#content p {
+margin: 80px;
+}
+
+
 #content p:nth-child(2) {
   background-color: tan;
 }
